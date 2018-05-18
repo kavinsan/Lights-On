@@ -1,0 +1,52 @@
+body {
+    background: #292929;
+    text-align: center;
+    
+}
+.circles {
+    font-size: 25px;
+}
+
+#container {
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+    margin: 10px auto;
+    display: inline-block;
+    transform: 2s;
+}
+
+.circles:hover {
+    color:white;
+    transition: 0.5s;
+}
+
+.circleOn {
+    color: teal;
+}
+h1 {
+    margin: 0px auto;
+}
+i {
+    transition: 0.02s;
+}
+button.reset {
+    display: block;
+    margin: 0px auto;
+    border-style: none;
+    background: teal;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all 0.4s;
+}
+button.nextLevel {
+    display: none;
+    margin: 0px auto;
+    border-style: none;
+    background: teal;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#title {
+    width: 200px;
+}
+
