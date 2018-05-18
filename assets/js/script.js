@@ -85,6 +85,7 @@ function winCheck(width, height){
         $("button.nextLevel").css("display","inline-block").addClass("bounceInDown");
         $("#container").removeClass("bounceIn");
         $("#title").css("color","teal");
+        $("button.nextLevel").removeClass("bounceOut");
         return true;
         
     } else {
