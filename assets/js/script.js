@@ -111,8 +111,9 @@ function clear(){
 }
 $("button.nextLevel").on("click", function(){
     $(this).toggleClass("bounceOut", function(){
-        $(this).css("display","none");
+        
     });
+    $(this).hide();
     $("button.reset").removeClass("bounceOut").addClass("bounceIn", function(){
         $(this).css("display","block");
         
